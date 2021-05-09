@@ -113,11 +113,7 @@ matrix:
       dist: xenial
     - compiler: gcc
       os: linux
-      env: SWIGLANG=lua
-      dist: xenial
-    - compiler: gcc
-      os: linux
-      env: SWIGLANG=lua VER=5.3
+      env: SWIGLANG=lua VER=5.4
       dist: xenial
     - compiler: gcc
       os: linux
@@ -407,7 +403,7 @@ matrix:
     - compiler: clang
       os: osx
       osx_image: xcode12.2
-      env: SWIGLANG=lua
+      env: SWIGLANG=lua VER=5.4
 # octave-6.1 not working
 #    - compiler: clang
 #      os: osx
